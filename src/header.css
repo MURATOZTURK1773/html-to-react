@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  align-items: center;
+  background-color: tomato;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header > nav {
+  display: flex;
+  list-style: none;
+  width: 33%;
+  justify-content: space-around;
+}
+
+header > nav > li {
+  padding: 10px;
+  background-color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+header > nav > li:hover {
+  background-color: tomato;
+}
+
+header > h1 {
+  font: inherit;
+  font-size: 30px;
+}
