@@ -22,7 +22,6 @@ class App extends React.Component {
         </header>
 
         <CharacterRatings />
-
         <CharacterCards />
       </>
     );
