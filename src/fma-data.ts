@@ -1,4 +1,4 @@
-type Character = {
+export type Character = {
   name: string;
   skillset: string[];
   votes: number;
