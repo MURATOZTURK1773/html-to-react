@@ -1,4 +1,3 @@
-// TableHeaderRow.tsx
 import React from 'react';
 
 const TableHeaderRow: React.FC = () => (
