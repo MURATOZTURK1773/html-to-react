@@ -5,7 +5,7 @@ import "./header.css";
 import "./character-cards.css";
 import "./character-ratings.css";
 import CharacterCards from "./CharacterCardsComponent";
-import CharacterTableRow from "./Tablerow";
+import CharacterTableRow from "./Tablerow1";
 import TableHeaderRow from "./TableHeaderRow";
 
 class App extends React.Component {
@@ -29,7 +29,8 @@ class App extends React.Component {
 }
 
 function CharacterRatings() {
-  const topCharacters = structuredClone(data)
+  const topCharacters = data
+    .slice()
     .sort((a, b) => b.votes - a.votes)
     .slice(0, 5);
 
